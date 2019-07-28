@@ -1,11 +1,10 @@
 import React from 'react';
-import logo from './../assets/svg/logo.svg';
 
 const Mainmenu = () => (
     <header>
         <div className="menu__content">
           <div className="menu__logo">
-            <img src={logo} alt="Do Sushi Logo"></img>
+            <img src="assets/svg/logo.svg" alt="Do Sushis Logo"></img>
           </div>
           <ul className="menu__nav">
             <a className="menu__item" href="#inicio">INICIO</a>

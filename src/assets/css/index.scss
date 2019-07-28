@@ -156,21 +156,29 @@ a{
   grid-template-rows: 1fr;
 }
 
+.grid-item__vertical{
+  margin: 0 auto;
+  text-align: center;
+}
+
 // Tipography
 
 .headline-2{
   font-size: 36px;
+  font-family: 'Raleway', sans-serif;
 }
 
 .headline-3{
   font-size: 24px;
   line-height: 38px;
   font-weight: 400;
+  font-family: 'Raleway', sans-serif;
 }
 
 .paragraph{
   color: var(--color-primary);
   font-weight: 700;
+  font-family: 'Raleway', sans-serif;
 }
 // Esencia Do
 
