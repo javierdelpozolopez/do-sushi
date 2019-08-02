@@ -8,14 +8,16 @@ import Esenciado from './Esenciado';
 import Nosembarcamos from './Nosembarcamos';
 import Quecomemos from './Quecomemos';
 import ComoPedir from './ComoPedir';
-import Ecologia from './ecologia';
-import Hablemos from './hablemos';
+import Ecologia from './Ecologia';
+import Hablemos from './Hablemos';
+import Call from './Call';
 import Footer from './footer';
 
 const IndexPage = () => (
   <Fragment>
     <Mainmenu />
     <Main />
+    <Call />
     <Esenciado />
     <Nosembarcamos />
     <Quecomemos />

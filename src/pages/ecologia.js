@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Ecologia = () => (
-    <div className="content">
+    <div className="content" id="ecologico">
     <div className="grid-40-60">
         <div className="left-content">
             <img src="assets/img/eco-3-image.png" alt="ecologico"/>

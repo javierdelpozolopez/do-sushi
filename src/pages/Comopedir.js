@@ -1,7 +1,7 @@
 import React from 'react';
 
 const ComoPedir = () => (
-    <div className="container como-pedir__container">
+    <div className="container como-pedir__container" id="como-pedir">
         <div className="content">
             <div className="content__head">
                 <h2 className="content__title">Como Pedir</h2>
@@ -10,7 +10,7 @@ const ComoPedir = () => (
             <div className="grid-2-col">
                 <div className="grid-item__vertical">
                     <img src="assets/img/icon-instagram.png" alt="Instagram DoSushiArtesanal"/>
-                    <p className="paragraph color_white">DoSushiArtesanal</p>
+                    <a href="https://www.instagram.com/dosushiartesanal/"><p className="paragraph color_white">DoSushiArtesanal</p></a>
                 </div>
                 <div className="grid-item__vertical">
                     <img className="icon" src="assets/img/icon-phone.png" alt="+56 9 4850 2969"/>

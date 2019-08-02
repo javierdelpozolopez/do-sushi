@@ -2,7 +2,7 @@ import React from 'react';
 
 
 const Hablemos = () => (
-    <div className="container hablemos__container">
+    <div className="container hablemos__container" id="hablemos">
         <div className="content">
             <div className="content__head">
                 <h2 className="content__title">Hablemos</h2>
