@@ -7,14 +7,22 @@ import Main from './Main';
 import Esenciado from './Esenciado';
 import Nosembarcamos from './Nosembarcamos';
 import Quecomemos from './Quecomemos';
+import ComoPedir from './ComoPedir';
+import Ecologia from './ecologia';
+import Hablemos from './hablemos';
+import Footer from './footer';
 
 const IndexPage = () => (
   <Fragment>
-    < Mainmenu />
+    <Mainmenu />
     <Main />
     <Esenciado />
     <Nosembarcamos />
     <Quecomemos />
+    <ComoPedir />
+    <Ecologia />
+    <Hablemos />
+    <Footer />
   </Fragment>
 )
 

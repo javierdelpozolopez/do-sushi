@@ -1,0 +1,33 @@
+import React from 'react';
+
+
+const Hablemos = () => (
+    <div className="container hablemos__container">
+        <div className="content">
+            <div className="content__head">
+                <h2 className="content__title">Hablemos</h2>
+                <h3 className="content__subtitle">Además de nuestro servicio tenemos un <span>área de eventos</span>, con demostraciones en vivo, Si quieres que conversemos de nuestra idea o generar alguna alianza… hablemos…</h3>
+            </div>
+            <div className="grid-3-col">
+                <div className="grid-item__vertical">
+                    <p className="subtitle strong">Mauricio Fuentes</p>
+                    <p className="body01">Peje Rey Brand Bussines</p>
+                    <p className="paragraph">mauricio@dosushi.cl</p>
+                </div>
+                <div className="grid-item__vertical">
+                    <p className="subtitle strong">Jorge Godoy</p>
+                    <p className="body01">Cardumen Manager</p>
+                    <p className="paragraph">jorge@dosushi.cl</p>
+                </div>
+                <div className="grid-item__vertical">
+                    <p className="subtitle strong">Gonzalo Peñafiel</p>
+                    <p className="body01">Lenguado Public Relations</p>
+                    <p className="paragraph">gonzalo@dosushi.cl</p>
+                </div>
+            </div>
+        </div>
+    </div>
+)
+
+
+export default Hablemos
