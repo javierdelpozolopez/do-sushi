@@ -13,7 +13,8 @@ $color-primary: #0090df;
 
 // Body 
 html {
-	scroll-behavior: smooth;
+  scroll-behavior: smooth;
+  cursor: url('../img/mouse-do.png'), auto;
 }
 
 @media screen and (prefers-reduced-motion: reduce) {
@@ -373,6 +374,12 @@ a{
   }
 }
 
+.nos-embarcamos__left{
+  @media only screen and (max-width: 786px) {
+    order: 2;
+  }
+}
+
 .grid-1-col{
   display: grid;
   grid-template-columns: 1fr;
@@ -437,6 +444,7 @@ a{
   color: var(--color-primary);
   font-weight: 700;
   font-family: 'Raleway', sans-serif;
+  font-size: 18px; 
 }
 
 .body01{
@@ -537,7 +545,26 @@ justify-content: center;
 
 .left-content img{
   width: 90%;
+  @media only screen and (max-width: 786px) {
+    padding: .5em;
+    text-align: center;
+    margin: 0 auto;
+    justify-self: center;
+  }
 }
+
+.left-content{
+  text-align: center;
+  @media only screen and (max-width: 786px) {
+    order: 2;
+  }
+}
+.right-content{
+  @media only screen and (max-width: 786px) {
+    order: 1;
+  }
+}
+
 
 
 // footer
@@ -577,8 +604,15 @@ justify-content: center;
   top: auto;
   bottom: 0;
   right: 14px;
-  background-color: var(--color-primary);
+  background-color: rgba(10,10,10,.85);
   padding: .5em;
   border-radius: 4px 4px 0 0;
   box-shadow: 0px 0px 6px rgba(0,0,0,.5);
 }
+
+a[href^="tel"] {
+  color: inherit; /* Inherit text color of parent element. */
+  text-decoration: none; /* Remove underline. */
+  /* Additional css `propery: value;` pairs here */
+}
+

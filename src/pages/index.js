@@ -18,10 +18,10 @@ const IndexPage = () => (
     <Mainmenu />
     <Main />
     <Call />
-    <Esenciado />
-    <Nosembarcamos />
     <Quecomemos />
     <ComoPedir />
+    <Esenciado />
+    <Nosembarcamos />
     <Ecologia />
     <Hablemos />
     <Footer />

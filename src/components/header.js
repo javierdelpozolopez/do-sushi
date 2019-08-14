@@ -28,6 +28,7 @@ const Header = ({ siteTitle }) => (
         </Link>
       </h1>
     </div>
+
   </header>
 )
 
@@ -36,7 +37,7 @@ Header.propTypes = {
 }
 
 Header.defaultProps = {
-  siteTitle: ``,
+  siteTitle: `Do Sushi`,
 }
 
 export default Header

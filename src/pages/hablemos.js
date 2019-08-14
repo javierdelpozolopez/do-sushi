@@ -12,17 +12,17 @@ const Hablemos = () => (
                 <div className="grid-item__vertical">
                     <p className="subtitle strong">Mauricio Fuentes</p>
                     <p className="body01">Peje Rey Brand Bussines</p>
-                    <p className="paragraph">mauricio@dosushi.cl</p>
+                    <a href="mailto:mauricio@dosushi.cl" className="paragraph">mauricio@dosushi.cl</a>
                 </div>
                 <div className="grid-item__vertical">
                     <p className="subtitle strong">Jorge Godoy</p>
                     <p className="body01">Cardumen Manager</p>
-                    <p className="paragraph">jorge@dosushi.cl</p>
+                    <a href="mailto:jorge@dosushi.cl" className="paragraph">jorge@dosushi.cl</a>
                 </div>
                 <div className="grid-item__vertical">
                     <p className="subtitle strong">Gonzalo Peñafiel</p>
                     <p className="body01">Lenguado Public Relations</p>
-                    <p className="paragraph">gonzalo@dosushi.cl</p>
+                    <a href="mailto:gonzalo@dosushi.cl" className="paragraph">gonzalo@dosushi.cl</a>
                 </div>
             </div>
         </div>
