@@ -10,14 +10,14 @@ const Hablemos = () => (
             </div>
             <div className="grid-3-col">
                 <div className="grid-item__vertical">
-                    <p className="subtitle strong">Mauricio Fuentes</p>
-                    <p className="body01">Peje Rey Brand Bussines</p>
-                    <a href="mailto:mauricio@dosushi.cl" className="paragraph">mauricio@dosushi.cl</a>
-                </div>
-                <div className="grid-item__vertical">
                     <p className="subtitle strong">Jorge Godoy</p>
                     <p className="body01">Cardumen Manager</p>
                     <a href="mailto:jorge@dosushi.cl" className="paragraph">jorge@dosushi.cl</a>
+                </div>
+                <div className="grid-item__vertical">
+                    <p className="subtitle strong">Mauricio Fuentes</p>
+                    <p className="body01">Peje Rey Brand Bussines</p>
+                    <a href="mailto:mauricio@dosushi.cl" className="paragraph">mauricio@dosushi.cl</a>
                 </div>
                 <div className="grid-item__vertical">
                     <p className="subtitle strong">Gonzalo Peñafiel</p>

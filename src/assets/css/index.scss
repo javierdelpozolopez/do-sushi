@@ -261,7 +261,7 @@ a{
 
 .main{
   &__container{
-    background-image: url('../img/main-bg.png');
+    background-image: url('../img/main-bg.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -270,6 +270,9 @@ a{
     display: flex;
     align-items: center;
     justify-content: center;
+    @media only screen and (max-width: 720px){
+      background-image: url('../img/main-bg-movil.png');
+    }
   }
 }
 

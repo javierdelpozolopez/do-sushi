@@ -22,10 +22,11 @@ const Mainmenu = () => (
       <span aria-hidden="true"><img className="menu-icon" src="assets/img/cancel.png" alt="close"></img></span>
     </a>
       <ul>
+        
             <li><a className="menu__item" href="#inicio">INICIO</a></li>
-            <li><a className="menu__item" href="#esencia-do">ESENCIA DO</a></li>
             <li><a className="menu__item" href="#que-comemos">QUÉ COMEMOS</a></li>
             <li><a className="menu__item" href="#como-pedir">CÓMO PEDIR</a></li>
+            <li><a className="menu__item" href="#esencia-do">ESENCIA DO</a></li>
             <li><a className="menu__item" href="#ecologico">120% ECO</a></li>
             <li><a className="menu__item" href="#hablemos">HABLEMOS</a></li>
       </ul>
