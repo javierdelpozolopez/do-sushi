@@ -11,7 +11,7 @@ import ComoPedir from './ComoPedir';
 import Ecologia from './Ecologia';
 import Hablemos from './Hablemos';
 import Call from './Call';
-import Footer from './footer';
+import Footer from './Footer';
 
 const IndexPage = () => (
   <Fragment>

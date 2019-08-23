@@ -19,8 +19,8 @@ const Quecomemos = () => (
             <div className="content__grid grid-4-col">
                 <img className="grid__image" src="assets/img/makis.jpg" alt="Makis"></img>
                 <img className="grid__image" src="assets/img/nigiris.jpg" alt="Nigiris"></img>
-                <img className="grid__image" src="assets/img/sashimi.jpg" alt="Sashimi"></img>
-                <img className="grid__image" src="assets/img/mariscos.jpg" alt="Mariscos"></img>
+                <img className="grid__image" src="./assets/img/sashimi.jpg" alt="Sashimi"></img>
+                <img className="grid__image" src="./assets/img/mariscos.jpg" alt="Mariscos"></img>
             </div>
             <div className="content__head">
                 <h3 className="subtitle">MORIAWASE 30 piezas</h3>
@@ -38,7 +38,7 @@ const Quecomemos = () => (
                 <h2 className="body01"><span>5 piezas: $5.000 - 9 piezas: $8.200 - 15 piezas: $13.500</span></h2>
             </div>
             <div className="content__grid grid-1-col">
-                <img className="grid__image grid__image-max" src="assets/img/sashimi-03.jpg" alt="Sashimi"></img>
+                <img className="grid__image grid__image-max" src="./assets/img/sashimi-03.jpg" alt="Sashimi"></img>
             </div>
 
             <div className="content__head">
