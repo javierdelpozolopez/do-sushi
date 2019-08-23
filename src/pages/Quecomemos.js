@@ -12,7 +12,7 @@ const Quecomemos = () => (
 
             <div className="content__head">
                 <h2 className="headline-2 color_white">SUSHI</h2>
-                <h3 className="subtitle">OMAKASE 35/50 piezas</h3>
+                <h3 className="subtitle">OMAKASE 30/50 piezas</h3>
                 <p className="body01"><span>Nuestra máxima esencia Do</span>, Variedad  de Makis, nigiris y sashimis, mariscos</p>
                 <h2 className="body01"><span>50 piezas: $24.000 30 piezas: $15.000</span></h2>
             </div>
